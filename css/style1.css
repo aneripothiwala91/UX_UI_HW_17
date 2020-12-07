@@ -1,0 +1,122 @@
+.container {
+    display:flex;
+    width: 1024px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.row{
+    display: flex;
+
+}
+
+.leftcontent{
+    flex: 49.5%;
+    padding-left: 20px;
+}
+
+.rightcontent{
+    flex: 49.5%;
+    padding-left: 20px;
+}
+
+.logo{
+    display: flex;
+    width: 198px;
+    height: 109px;
+    margin-left: -50px;
+    background-image:url("../images/logo.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    }
+
+.navigation {
+    letter-spacing: 6.33143px;
+    justify-content: flex-end;
+    }
+
+
+.navigation a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #F7941E;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: Bold;
+    margin: 20px;
+    margin-bottom: 0%;
+    }
+
+
+.rectangle{position: absolute;
+    width: 1000px;
+    height: 346px;
+    left: 334px;
+    top: 0px;
+    background: rgba(253, 210, 68, 0.479);
+    mix-blend-mode: normal;
+    opacity: 0.22;
+    }
+
+
+.line{
+    flex: 1%;
+    max-width:3px;
+    height: 277px;
+    left: 725px;
+    top: 232px;
+    background: #FDD344;
+    }
+
+
+.image1{
+    width: 548px;
+    height: 324px;
+    }
+
+.website{
+    margin-top: 70px;
+    padding-bottom: 40px;
+    background: linear-gradient(to bottom, white 0%,white 20%,#000000 20%,yellow 20%,yellow 100%)
+    }
+
+.text{
+    margin-top: 100px;
+    }
+
+
+    .footer h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 36px;
+        color: #FFC000;
+    }
+    
+    .footernav {
+        display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    }
+    
+    .footernav a{
+        color: #F7941E;
+        text-decoration: none;
+    }
+    
+    
+    .footer1{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: #FDD344;
+        margin-top: 30px;
+    }

@@ -1,0 +1,314 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Navigation styles */
+
+.logo{
+    display: flex;
+    position: absolute;
+    width: 198px;
+    height: 109px;
+    left: 33px;
+    top: 58px;
+    background-image:url("../images/logo.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    float: left;
+    }
+
+.navigation {
+    
+    position: absolute;
+    width: 750px;
+    height: 27px;
+    left: 700px;
+    top: 50px;
+    text-align: right;
+    letter-spacing: 6.33143px;
+    }
+    
+
+.navigation a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #F7941E;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: Bold;
+    margin: 20px;
+    }
+
+
+
+
+h1{
+    position: absolute;
+    height: 96px;
+    left: 10.83%;
+    right: 77.71%;
+    top: 207px;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    color: #F7941E;
+}
+
+.nametext h2{
+    position: absolute;
+    height: 72px;
+    left: 10.83%;
+    right: 55.14%;
+    top: 303px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: #F7941E;
+}
+
+.rectangle{position: absolute;
+    width: 1106px;
+    height: 646px;
+    left: 334px;
+    top: 0px;
+    background: rgba(253, 210, 68, 0.479);
+    mix-blend-mode: normal;
+    opacity: 0.22;}
+
+.abouttext p1{
+    position: absolute;
+    width: 554px;
+    height: 226px;
+    left: 767px;
+    top: 241px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.0036em;
+    color: #473B12;
+}
+
+.abouttext p2{
+    position: absolute;
+    width: 554px;
+    height: 226px;
+    left: 767px;
+    top: 341px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.0036em;
+    color: #473B12;
+}
+
+
+.line{
+    position: absolute;
+    width: 3px;
+    height: 277px;
+    left: 725px;
+    top: 232px;
+    background: #FDD344;
+}
+
+
+.downloadbutton button{
+    position: absolute;
+    width: 353px;
+    height: 113px;
+    left: 156px;
+    top: 590px;
+    background: #FDD344;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+/* pROJECT styles */
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.projectone {
+    display: flex;
+    width: 1258px;
+    height: 324px;
+    margin-top: 868px;
+    margin-left: 91px;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    background-color: #FDD344; 
+}
+
+.projectimageone{
+    position: absolute;
+    background-image: url("../images/mockup1food.jpg");
+    width: 548px;
+    height: 324px;
+    left: 162px;
+    top: 796px;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+.projecttextone{
+    width: 40%;
+    padding-right: 5%;
+}
+
+
+.projecttwo {
+    display: flex;
+    width: 1258px;
+    height: 324px;
+    margin-top: 100px;
+    margin-left: 91px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    background: rgba(255, 214, 89, 0.45);
+}
+
+.projectimagetwo{
+    position: absolute;
+    background-image: url("../images/mockup2park.jpg");
+    width: 548px;
+    height: 324px;
+    left: 730px;
+    top: 1239px;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.projecttexttwo{
+    width: 44%;
+    padding-left: 6%;
+}
+
+.projectthree {
+    display: flex;
+    width: 1258px;
+    height: 324px;
+    margin-top: 100px;
+    margin-left: 91px;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    background-color: #FDD344;}
+
+
+.projectimagethree{
+    position: absolute;
+    background-image: url("../images/mockup1food.jpg");
+    width: 548px;
+    height: 324px;
+    left: 162px;
+    top: 1673px;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.projecttextthree{
+    width: 40%;
+    padding-right: 5%;
+}
+
+.projectfour {
+    display: flex;
+    width: 1258px;
+    height: 324px;
+    margin-top: 100px;
+    margin-left: 91px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    background: rgba(255, 214, 89, 0.45);
+}
+
+.projectimagefour{
+    position: absolute;
+    background-image: url("../images/mockup2park.jpg");
+    width: 548px;
+    height: 324px;
+    left: 730px;
+    top: 2116px;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.projecttextfour{
+    width: 44%;
+    padding-left: 6%;
+}
+
+h3{
+    font-size: 36px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+
+
+
+.footer h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    color: #FFC000;
+}
+
+.footernav {
+    display: flex;
+align-items: center;
+justify-content: space-evenly;
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+}
+
+.footernav a{
+    color: #F7941E;
+    text-decoration: none;
+}
+
+
+.footer1{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDD344;
+    margin-top: 30px;
+}
